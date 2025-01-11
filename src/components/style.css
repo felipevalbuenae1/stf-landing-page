@@ -1,0 +1,17 @@
+.carousel-container-with-scrollbar {
+    overflow-x: auto; /* Permite el desplazamiento horizontal */
+    padding: 10px; /* Espacio alrededor del carrusel */
+  }
+  
+  .carousel-container-with-scrollbar::-webkit-scrollbar {
+    height: 8px; /* Altura del scrollbar */
+  }
+  
+  .carousel-container-with-scrollbar::-webkit-scrollbar-thumb {
+    background-color: darkgrey; /* Color del thumb del scrollbar */
+    border-radius: 10px; /* Bordes redondeados del thumb */
+  }
+  
+  .carousel-container-with-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color del track del scrollbar */
+  }
