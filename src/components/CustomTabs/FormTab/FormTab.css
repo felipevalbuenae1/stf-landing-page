@@ -1,0 +1,58 @@
+.form-tab-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .form-tab-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    z-index: -1;
+  }
+  
+  .custom-form {
+    background: rgb(171 171 171 / 10%);
+    backdrop-filter: blur(10px);
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .custom-form .form-control {
+    border-radius: 0.25rem;
+  }
+  
+  .custom-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0.25rem;
+  }
+  
+  .custom-form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+
+  #controlled-tab-example-tabpane-formulario {
+    /* display: flex!important; */
+  }
+
+  /* @media (max-width: 1022px) {
+    .form-tab-container {
+      margin: 0!important;
+    }
+  } */

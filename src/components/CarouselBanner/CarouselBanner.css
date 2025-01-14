@@ -1,0 +1,10 @@
+.carousel-banner {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-banner-item {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+  }

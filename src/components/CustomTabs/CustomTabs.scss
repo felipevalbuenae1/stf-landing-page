@@ -1,0 +1,17 @@
+/* filepath: /d:/StudioF/stf-landing-page/src/components/CustomTabs/CustomTabs.scss */
+.custom-tabs {
+    .nav-tabs {
+      .nav-link.active,
+      .nav-item.show .nav-link {
+        color: rgb(22, 22, 22)!important;
+      }
+    }
+  
+    .nav-link {
+      color: #adadad;
+  
+      &:hover {
+        color: rgb(22, 22, 22)!important;
+      }
+    }
+  }

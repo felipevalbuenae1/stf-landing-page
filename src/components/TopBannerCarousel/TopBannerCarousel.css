@@ -1,0 +1,15 @@
+.top-banner-carousel {
+    width: 100%;
+    max-height: 36px;
+    /* overflow: hidden; */
+    z-index: 20000;
+    position: fixed!important;
+  }
+  
+  .top-banner-item {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+  }

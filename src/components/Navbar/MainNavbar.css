@@ -1,0 +1,193 @@
+.submenu {
+    width: 100%;
+    background-color: #f8f9fa;
+    /* padding: 20px 0; */
+    position: fixed;
+    top: 92px;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toggle-submenu-button {
+    display: inline-block!important;
+  }
+  
+  @media (max-width: 992px) {
+    .toggle-submenu-button {
+      display: none!important;
+    }
+  }
+
+  
+  @media (max-width: 992px) {
+    .responsive-navbar-nav {
+        order: 0;
+    }
+
+    .navbar-brand {
+        order: 1;
+    }
+
+    .navbar-nav-end {
+        order: 2;
+    }
+    .navbar-main {
+      max-height: -webkit-fill-available!important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    
+  }
+
+  a#stf-btn-amore-mio::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f06b";
+    display: inline-block;
+    vertical-align: initial;
+    font-weight: 900;
+    color: black !important;
+  }
+  
+  li[role=menuitem] {
+    display: flex;
+  }
+
+  .topBannerNewSlider{
+    display: flex !important;
+}
+.topBannerNewSliderContent{
+    display: flex !important;
+}
+.topBannerNewSliderContent a{
+    width: 100%;
+}
+.topBannerNewSliderContent img{
+    width: 100%;
+}
+.swiper-container .tb {
+    width: 100%;
+    /*height: 2.3em;*/
+}
+
+.tb .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Center slide text vertically */
+}
+
+.tb .swiper-slide img {
+    /*max-height: 2.3em;*/
+    max-height: 40px;
+    /*width: 100%;*/
+}
+
+/* Cambio realizado por petición de juan manuel el día 08/042021*/
+li.megamenu-nuevo {
+    background: black !important;
+}
+
+li.megamenu-nuevo a.label-nuevo {
+    color: white !important;
+    font-weight: bold;
+    background: black;
+}
+
+li.megamenu-nuevo a.label-nuevo::after {
+    border-color: white transparent transparent !important;
+
+}
+
+/*fin del cambio */
+
+
+.menuItemHombre {
+    display: none;
+}
+
+.submenu-button {
+  background-color: transparent!important;
+  padding: 0!important;
+  border: none!important;
+}
+
+.logo-content {
+  align-items: center;
+  height: 100%;
+  position: relative;
+  padding-left: 1%;
+}
+
+.navbar-main {
+  max-height: 63px;
+  position: fixed!important;
+  width: -webkit-fill-available;
+  z-index: 20000;
+  margin-top: 30px !important;
+
+}
+
+.secondaryNav__menu * {
+  color: black !important;
+  border-color: black !important;
+}
+
+.navbar-container {
+  padding-right: 4vw!important;
+}
+
+::placeholder {
+  color: black!important;
+}
+
+/* MainNavbar.css */
+
+/* Ocultar el search-mobile por defecto */
+.search-mobile {
+  display: none;
+}
+
+/* Mostrar el search-mobile y ocultar el search normal en dispositivos móviles */
+@media (max-width: 1022px) {
+  .search-mobile {
+    display: block!important;
+    margin-top: 30px!important;
+    border-bottom: 1px solid!important;
+    position: fixed!important;
+    z-index: 20000!important;
+    background-color: white!important;
+    margin-top: 36px!important;
+    margin-inline: 0!important;
+    width: -webkit-fill-available!important;
+    padding-inline: 20px!important;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .navbar-main{
+      margin-top: 77px !important;
+      padding-inline: 20px!important;
+  }
+
+  .productLines__item.nav-link {
+    margin: 0!important;
+  }
+
+  .top-banner-carousel {
+    max-height: max-content;
+  }
+}
+
+#offcanvasNavbar-expand-lg {
+  z-index: 20000;
+}

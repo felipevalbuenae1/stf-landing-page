@@ -1,0 +1,14 @@
+.custom-proposal-tab-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .custom-proposal-tab-container .btn-primary {
+    margin-bottom: 20px;
+  }
+
+  .konvajs-content {
+    height: 450px!important;
+  }

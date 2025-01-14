@@ -1,0 +1,123 @@
+
+@font-face {
+    font-family: "Montserrat-Medium"; 
+    src: url("https://acceso.studiof.com/fonts-2020/Montserrat-Medium.otf"); 
+  }
+  
+          a.btn.btn-error-404 {
+              /*background-color: #2A1B30 !important;*/
+              background-color: #8B5F37 !important;
+              border-radius: 25px;
+              font-family: "Montserrat-Medium";
+              font-weight: 600;
+              padding: 0.375rem 3rem !important;
+              letter-spacing: 0.1rem;
+              border-radius: 0px !important;
+          }
+  
+          a.btn.btn-error-404:hover {
+              background-color: #443147 !important;
+              color: white !important;
+          }
+     
+          .btn-error-404 {
+              /* background: #304550 !important; */
+              /*Old*/
+              color: #FFFFFF !important;
+              min-width: 12rem !important;
+          }
+  
+          a {
+              color: #000000 !important;
+          }
+  
+          a:hover {
+              color: #000000 !important;
+              text-decoration: none !important;
+          }
+  
+          a.btn.btn-error-404 {
+              /* font-family: 'Bebas Neue', Roboto, Arial, sans-serif; */
+              /*Old*/
+              letter-spacing: 0.3em;
+          }
+  
+          .recomendado .n1colunas li {
+              list-style: none;
+              width: 20vw;
+          }
+  
+          .recomendado .shelf.n1colunas {
+              display: flex;
+              flex-wrap: nowrap;
+              overflow-x: scroll;
+              flex-direction: row;
+          }
+  
+          .recomendado .n1colunas h2 {
+              display: none;
+          }
+  
+          .recomendado .shelf.n1colunas ul {
+              padding: 0;
+              margin: 0 1vh;
+          }
+  
+          .recomendado .n1colunas::-webkit-scrollbar {
+              width: 0.2em;
+              height: 4vh;
+          }
+  
+          .recomendado .n1colunas::-webkit-scrollbar-track {
+              /* --webkit-box-shadow: inset 0 0 1vh rgba(0, 0, 0, 0.3); */
+          }
+  
+          .recomendado .n1colunas::-webkit-scrollbar-thumb {
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 2vw;
+          }
+  
+          .recomendado h2 {
+              margin: 2rem 0;
+              text-align: center;
+              text-transform: uppercase;
+              z-index: 1;
+              font-size: 2rem;
+              letter-spacing: .2em;
+              position: relative;
+          }
+  
+          .recomendado h2:before {
+              border-top: 1px solid #e6e6e6;
+              content: "";
+              margin: 0 auto;
+              position: absolute;
+              top: 50%;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              width: 95%;
+              z-index: -1;
+          }
+  
+          .recomendado h2 span {
+              background: #fefefe;
+              padding: 0 15px;
+              font-size: 3rem;
+          }
+  
+          @media(max-width: 600px) {
+              .recomendado .n1colunas li {
+                  list-style: none;
+                  width: 40vw;
+              }
+          }
+
+          img {
+            display: inline-block;
+            vertical-align: middle;
+            max-width: 100%;
+            height: auto;
+            -ms-interpolation-mode: bicubic
+        }
