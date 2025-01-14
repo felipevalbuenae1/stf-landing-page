@@ -4,7 +4,7 @@
 
 ## Demo de la Aplicación
 
-Puede revisar la demo de nuestra aplicación sin necesidad de descargar el repositorio visitando el siguiente enlace:
+Puede revisar la demo de la aplicación sin necesidad de descargar el repositorio visitando el siguiente enlace:
 
 [Demo de la Aplicación](https://stf-landing-page.vercel.app/)
 
