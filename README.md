@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Bienvenido a Studio F
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Gracias por tomarse el tiempo de revisar el proyecto!
 
-## Available Scripts
+## Demo de la Aplicación
 
-In the project directory, you can run:
+Puede revisar la demo de nuestra aplicación sin necesidad de descargar el repositorio visitando el siguiente enlace:
 
-### `npm start`
+[Demo de la Aplicación](https://stf-landing-page.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La aplicación está desplegada en Vercel para su conveniencia.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Cómo Probar la Aplicación Descargando el Repositorio
 
-### `npm test`
+Si prefiere probar la aplicación localmente, siga estos pasos para descargar y ejecutar el proyecto en su máquina local.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerrequisitos
 
-### `npm run build`
+Asegúrese de tener instalados los siguientes programas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/) (versión 14 o superior)
+- [npm](https://www.npmjs.com/) (viene con Node.js)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pasos para Descargar y Ejecutar el Proyecto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clonar el Repositorio**
 
-### `npm run eject`
+   Clone el repositorio en su máquina local usando el siguiente comando:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   \`\`\`bash
+   git clone https://github.com/felipevalbuenae1/stf-landing-page.git
+   \`\`\`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Navegar al Directorio del Proyecto**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Cambie al directorio del proyecto:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   \`\`\`bash
+   cd stf-landing-page
+   \`\`\`
 
-## Learn More
+3. **Instalar las Dependencias**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   Instale las dependencias del proyecto usando npm:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   \`\`\`bash
+   npm install
+   \`\`\`
 
-### Code Splitting
+4. **Ejecutar la Aplicación**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   Inicie la aplicación en modo de desarrollo:
 
-### Analyzing the Bundle Size
+   \`\`\`bash
+   npm start
+   \`\`\`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   Esto abrirá la aplicación en su navegador predeterminado en la dirección \`http://localhost:3000\`.
 
-### Making a Progressive Web App
+### Estructura del Proyecto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+El proyecto está organizado de la siguiente manera:
 
-### Advanced Configuration
+- `src/components/CustomTabs/FormTab/FormTab.js`: Componente del formulario.
+- `src/components/CustomTabs/VideoTab/VideoTab.js`: Componente del video.
+- `src/components/CustomTabs/ProductShowcaseTab/ProductShowcaseTab.js`: Componente de la vitrina de productos.
+- `src/components/CustomTabs/CustomProposalTab/CustomProposalTab.js`: Componente de la propuesta personalizada.
+- `src/pages/Home/Home.js`: Página principal que incluye todos los componentes:
+  - `Navbar`: Barra de navegación.
+  - `TopBanner`: Banner superior.
+  - `BannerCarousel`: Carrusel de banners.
+  - `CategoriesSection`: Sección de categorías.
+  - `ProductCarousel`: Carrusel de productos.
+  - `TabsSection`: Sección de pestañas que incluye los componentes mencionados anteriormente.
+  - `Footer`: Pie de página.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Despliegue
 
-### Deployment
+La aplicación está desplegada en Vercel y puede ser accedida en el siguiente enlace:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[Demo de la Aplicación](https://stf-landing-page.vercel.app/)
 
-### `npm run build` fails to minify
+### Contribuciones
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por revisar la prueba de desarrollador Front para Studio F! Espero que disfrute revisando y probando la aplicación.
