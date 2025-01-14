@@ -1,4 +1,4 @@
-# Bienvenido a Studio F
+# Bienvenido a la prueba de desarrolador Front para Studio F
 
 ¡Gracias por tomarse el tiempo de revisar el proyecto!
 
