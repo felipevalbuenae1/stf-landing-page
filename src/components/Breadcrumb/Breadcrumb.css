@@ -33,3 +33,9 @@
     text-transform: uppercase;
     background-color: #e9ecef!important;
   }
+
+  @media (max-width: 1022px) {
+    .breadcrumb-container {
+      margin-top: 128px!important;
+    }
+  }

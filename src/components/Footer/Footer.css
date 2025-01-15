@@ -13386,10 +13386,10 @@ screen and (min-width:40em) {
 }
 
 .item__discount {
-    background-color: #29a516;
+    background-color: black;
     color: #fefefe;
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
     right: 0;
     display: inline-block;
     padding: .33333rem .5rem;
@@ -13446,7 +13446,7 @@ screen and (min-width:40em) {
 }
 
 .item__price--discount {
-    color: #29a516
+    color: #bc341f
 }
 
 .systemError__container {
